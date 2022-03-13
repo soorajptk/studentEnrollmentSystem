@@ -1,0 +1,135 @@
+.rgsterheading {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  position: relative;
+}
+.switchRegs {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  border: 1px solid grey;
+  padding: 0.2rem 1rem;
+  color: black;
+  border-radius: 0.3rem;
+  transition: all 0.2s ease-in-out;
+}
+.switchRegs:hover {
+  background-color: teal;
+  color: #fff;
+}
+.employeeregContainer {
+  width: 100%;
+  max-width: 60vw;
+  position: relative;
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */
+  max-height: fit-content;
+  padding: 1rem 0;
+  border-radius: 5px;
+  margin: 1.5rem auto;
+}
+form {
+  margin: 1rem;
+}
+.RegisterUserImgContainer {
+  position: relative;
+}
+
+.RegisterUserImg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.imgloading {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.RegisterUserImgLabel {
+  position: absolute;
+  left: 5rem;
+  bottom: 0.7rem;
+  font-size: 25px;
+  z-index: 1;
+  cursor: pointer;
+}
+.inpts {
+  border: 1px solid grey;
+}
+input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 0;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.2rem 3rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: royalblue;
+}
+.employeeRegisterfield {
+  margin-top: 1rem;
+  color: grey;
+}
+.registerInp {
+  position: relative;
+}
+.registerIcon {
+  position: absolute;
+  top: 2px;
+  right: 1rem;
+}
+.offscreen {
+  display: none;
+}
+.instructions {
+  margin-top: 5px;
+  padding: 0.2rem 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-radius: 1rem;
+
+  background-color: black;
+}
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+}
+
+.errMsgClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+.employeergstrbtn {
+  width: 40%;
+  height: 25px;
+}

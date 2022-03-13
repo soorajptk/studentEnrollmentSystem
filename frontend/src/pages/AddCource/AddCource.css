@@ -1,0 +1,96 @@
+.rgsterheading {
+  margin-top: 0.5rem;
+  text-align: center;
+  /* font-family: "Josefin Sans", sans-serif; */
+  /* font-family: 'Lora', serif; */
+  /* font-family: "Varela", sans-serif; */
+  font-family: "Varela Round", sans-serif;
+}
+.employeeregContainer {
+  width: 100%;
+  max-width: 60vw;
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */
+  max-height: fit-content;
+  padding: 1rem 0;
+  border-radius: 5px;
+  margin: 1.5rem auto;
+}
+form {
+  margin: 1rem;
+}
+.RegisterUserImgContainer {
+  position: relative;
+}
+
+.RegisterUserImg {
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  width: 100px;
+  height: 100px;
+}
+.imgloading {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.RegisterUserImgLabel {
+  position: absolute;
+  left: 5rem;
+  bottom: 0.7rem;
+  font-size: 25px;
+  z-index: 1;
+  cursor: pointer;
+}
+.inpts {
+  border: 1px solid grey;
+}
+textarea {
+  width: 100%;
+  font-size: 18px;
+}
+input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 0;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.2rem 3rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: royalblue;
+}
+.employeeRegisterfield {
+  margin-top: 1rem;
+  color: grey;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+}
+
+.errMsgClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+.employeergstrbtn {
+  width: 40%;
+  height: 25px;
+}

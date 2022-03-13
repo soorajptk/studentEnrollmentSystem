@@ -1,0 +1,54 @@
+.login {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+  max-width: 50vw;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+}
+.loginTitle {
+  text-align: center;
+}
+.loginLabel {
+  color: #fff;
+}
+.loginInp {
+  margin-bottom: 0.7rem;
+}
+.loginSelect {
+  border-radius: 0.2rem;
+  width: 30%;
+  height: 27px;
+}
+.loginbtn {
+  margin-top: 1.5rem;
+}
+.inpdiv {
+  position: relative;
+}
+.ValidationIconRed {
+  position: absolute;
+  top: 7px;
+  right: 1rem;
+  color: red;
+}
+.ValidationIconGreen {
+  position: absolute;
+  top: 7px;
+  right: 1rem;
+  color: green;
+}
+.instructions {
+  border-radius: 0.5rem;
+}
+.hide {
+  display: none;
+}
+.registerLink {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 700px) {
+  .login {
+    max-width: 90vw;
+  }
+}

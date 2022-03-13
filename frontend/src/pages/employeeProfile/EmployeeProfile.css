@@ -1,0 +1,136 @@
+.employeeProfileContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.employeeProfile {
+  background: rgb(78, 78, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(78, 78, 133, 1) 35%,
+    rgba(88, 84, 140, 1) 45%,
+    rgba(98, 90, 147, 1) 55%,
+    rgba(144, 116, 180, 1) 100%
+  );
+  padding: 1.5rem 0;
+}
+.EmployeeName {
+  color: rgb(170, 167, 167);
+  padding-left: 5px;
+}
+.employeeProfileName {
+  /* text-align: center; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+}
+.userProfilePic {
+  text-align: center;
+}
+.usernameIcon {
+  font-size: 18px;
+}
+.employeeEdit {
+  color: #fff;
+  font-size: 18px;
+  width: 40px;
+  margin-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.employeeTrash {
+  width: fit-content;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.employeeTrash:hover {
+  color: rgb(209, 7, 7);
+  font-size: 22px;
+}
+.employeeEdit:hover {
+  color: rgb(8, 182, 8);
+  font-size: 22px;
+}
+.employeeEmail {
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.employeeNameInput {
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: 16px;
+}
+.AboutSection {
+  background-color: rgb(236, 234, 234);
+}
+.aboutsetionheading {
+  padding-top: 1rem;
+  text-align: center;
+}
+.paragraphContainer {
+  max-width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.paragraph::first-letter {
+  color: black;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.somethingabout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageHandleSection {
+  position: relative;
+  width: 200px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.employeeImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageCam {
+  position: absolute;
+  bottom: 0.5rem;
+  color: #fff;
+  right: 0.5rem;
+  font-size: 22px;
+  background-color: black;
+  padding: 0.1rem 0.3rem;
+  border-radius: 50%;
+}
+.imageCam:hover {
+  color: rgb(6, 199, 6);
+  cursor: pointer;
+}
+.updateEmployeeBtn {
+  color: #fff;
+  background-color: teal;
+}
+.updateEmployeeBtn:hover {
+  color: black;
+}
+@media screen and (max-width: 930px) {
+  .employeeProfileContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

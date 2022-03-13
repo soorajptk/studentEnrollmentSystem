@@ -1,0 +1,43 @@
+.footer {
+  background-color: #282d32;
+  color: grey;
+  display: grid;
+  padding: 3rem 2rem;
+}
+.branches {
+  display: flex;
+  font-size: 15px;
+}
+.one {
+  flex: 3;
+}
+.three {
+  flex: 3;
+}
+.two {
+  flex: 3;
+}
+.four {
+  flex: 3;
+}
+.paraColor {
+  color: gray;
+}
+@media screen and (max-width: 700px) {
+  .branches {
+    display: block;
+    text-align: center;
+  }
+}
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  margin: 2rem 2rem;
+  font-size: 30px;
+}
+.foot {
+  margin: 0 auto;
+}

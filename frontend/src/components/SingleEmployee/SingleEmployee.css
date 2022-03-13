@@ -1,0 +1,58 @@
+.SingleEmployeeContainer {
+  max-width: 85vw;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  transition: 0.3s all ease-in-out;
+}
+.SingleEmployeeContainer:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.imgsection {
+  height: 100%;
+  flex: 1;
+}
+.SingleEmployeeImg {
+  height: 100%;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.SingleEmployeeDetails {
+  flex: 7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  padding: 0 10px;
+}
+.SingleEmployeeOptions {
+  flex: 4;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.anim {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
+.deletebtn {
+  background-color: rgba(255, 99, 71, 0.856);
+  color: white;
+}
+.deletebtn:hover {
+  color: black;
+}
+.editbtn {
+  background-color: teal;
+  color: white;
+}
+.editbtn:hover {
+  color: black;
+}

@@ -1,0 +1,143 @@
+.studentProfile {
+  padding-top: 1rem;
+  max-width: 100vw;
+  background-image: linear-gradient(
+    to right top,
+    #4275c0,
+    #7880c7,
+    #9f8dcd,
+    #bf9bd1,
+    #daabd6
+  );
+}
+.innerContainerProfile {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  width: 100%;
+  background-color: rgb(219, 217, 217);
+  box-shadow: 0 5px 15px rgb(94, 93, 93);
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+}
+.profile {
+  flex: 5;
+  border-radius: 1rem;
+  width: 100%;
+}
+.bodyProfile {
+  flex: 7;
+}
+.profileimagediv {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgprofiles {
+  flex: 6;
+  position: relative;
+}
+.uploadimageStudent {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 3rem;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0 0.3rem;
+  cursor: pointer;
+}
+.namess {
+  flex: 6;
+}
+.profileimage {
+  width: 150px;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.profilename {
+  margin: 0 auto;
+}
+.usericon {
+  color: teal;
+  font-size: 18px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.editStudentProfileTrash {
+  margin-left: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+.editStudentProfileEdit {
+  margin-left: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+.editStudentProfileEdit:hover {
+  color: red;
+  font-size: 20px;
+}
+
+.editStudentProfileTrash:hover {
+  color: teal;
+}
+.profileAdditional {
+  /* margin: 2rem; */
+}
+@media screen and (max-width: 768px) {
+  .profileimage {
+    width: 120px;
+    height: 120px;
+  }
+  .innerContainerProfile {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .usernameProfile {
+    font-size: 29px;
+  }
+}
+.bodyProfile {
+  margin: 0 1rem;
+}
+.GeneralInformation {
+  margin-top: 3rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(219, 217, 217);
+}
+.GeneralInformation > h3 {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.records {
+  padding: 1rem;
+}
+.recordsData {
+  color: black;
+  font-size: 18px;
+}
+.studentProfileUpdate {
+  background-color: teal;
+  color: #fff;
+}
+.studentProfileUpdate:hover {
+  color: black;
+}

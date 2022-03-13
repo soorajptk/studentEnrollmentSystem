@@ -1,0 +1,21 @@
+.Search {
+  height: 60px;
+  margin-top: 1rem;
+  margin-bottom: 2.85rem;
+}
+.SearchContainer {
+  max-width: 85vw;
+  margin: 0 auto;
+}
+.SearchInp {
+  margin-top: 5px;
+  max-width: 85vw;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+}
+.SearchInp::placeholder {
+  font-size: 16px;
+}
+.labelSearch {
+  font-size: 23px;
+}

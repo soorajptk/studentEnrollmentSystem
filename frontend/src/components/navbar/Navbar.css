@@ -1,0 +1,103 @@
+.navbarContainer {
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  z-index: 10000;
+}
+.navbarBg {
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  animation: navbar 0.2s ease-in-out;
+}
+@keyframes navbar {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.navbarSubContainer {
+  margin: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoImg {
+  width: 60px;
+  margin-top: 5px;
+}
+.navbarLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarLink {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 1.5rem;
+}
+.navbarLinkChange {
+  color: black !important;
+}
+.userPic {
+  margin-left: 1rem;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hambuger {
+  color: #fff;
+  font-size: 25px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  display: none;
+}
+.hambuger:hover {
+  transform: rotate(90deg);
+}
+@media screen and (max-width: 1010px) {
+  .hambuger {
+    display: block;
+    color: black;
+  }
+  .navbarContainer {
+    background-color: #fff;
+    height: fit-content;
+  }
+  .navbarLogoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .navbarSubContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbarLinks {
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+  }
+  .navbarLinksCLICK {
+    height: fit-content;
+    padding-bottom: 1rem;
+    overflow: visible;
+  }
+  .navbarLink {
+    color: black;
+    transition: 0.3s all ease-in-out;
+    margin-top: 0.2rem;
+  }
+  .navbarLink:hover {
+    padding-left: 1.5rem;
+    border-left: 3px solid teal;
+  }
+}

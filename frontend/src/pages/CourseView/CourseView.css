@@ -1,0 +1,52 @@
+.courseHeader {
+  font-family: "Lora", serif;
+  margin: 1rem 0.5rem;
+  position: relative;
+  padding: 1.5rem 0;
+  padding-bottom: 2.5rem;
+}
+.CourseNAME {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.courseDuration {
+  font-size: 14px;
+}
+.courseAbout {
+  /* font-family: "Varela", sans-serif; */
+  /* font-family: "Josefin Sans", sans-serif; */
+  /* font-family: "Varela Round", sans-serif; */
+  letter-spacing: 0.2px;
+  font-weight: 100;
+}
+.AddCourse {
+  background-color: teal;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  padding: 0.3rem 1.5rem;
+}
+.AddCourse:hover {
+  color: black;
+}
+.ModalAddcourse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation: addCourse 1s ease-in-out;
+}
+
+@keyframes addCourse {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,74 @@
+.courseSubContainer {
+  /* width: 360px; */
+  height: 300px;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.courseSubContainer:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.courseImg {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+.courseBody {
+  margin: 0.5rem 1rem;
+}
+
+.courseName {
+  font-size: 16px;
+}
+.courseLogo {
+  width: 20px;
+}
+
+.previewCourse {
+  position: absolute;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+  z-index: -1;
+  top: 0;
+  cursor: pointer;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.courseSubContainer:hover .previewCourse {
+  z-index: 1;
+  width: 100%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.previewbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  border: 1px solid white;
+  padding: 0.3rem 2rem;
+  transition: 0.2s all ease-in-out;
+}
+
+.previewbtn:hover {
+  color: black;
+  background-color: white;
+}
+.Icon {
+  width: 20px;
+  margin-left: 1rem;
+}
+.coursespan {
+  padding-left: 5px;
+}
